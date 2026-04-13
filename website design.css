@@ -1,0 +1,307 @@
+*{
+    margin:0;
+    padding:0;
+   
+    color: aliceblue;
+ }
+ header{
+    background-color: #181824;
+    overflow: hidden;
+    padding: 20px;
+}
+.title{
+    color:#7562E0;
+    float: left;
+    font-size: 30px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+
+}
+nav{
+    float: right;
+}
+li{
+    display: inline;
+}
+main{
+    background-color: #1A1A29;
+} 
+.bio-image{
+     width: 250px;
+    border-radius: 50%;
+    border: 5px solid #ddd;
+    float:right;
+}
+#bio{
+    padding: 60px;
+}
+.primary{
+    border: none;
+    background-color:#7562E0 ;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+.secondary{
+ color:white;
+ background-color: #1A1A29;
+ border-color: hotpink;
+ padding: 10px;
+ border-radius: 8px;
+}
+#aboutme{
+    clear:both;
+    padding: 60px;
+}
+h2{
+    color:#7562E0
+
+}
+table {
+            border-collapse: none;
+            width: 60%;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid hsl(268, 81%, 71%);
+            padding: 10px;
+            text-align: left;
+        }
+        h2 {
+            text-align: center;
+        }
+    
+
+
+#interest{
+    padding: 50px;
+}
+.travelling-image, .cooking-image, .reading-image, .music-image{
+    width: 50%;
+    height: 100px;
+    border-radius: 8px;
+    float: middle;
+}
+.card{
+    border: 3px solid #7562E0;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    width: 343px;
+    border-radius: 8px;
+}
+.card {
+    height: 200px;
+    overflow: hidden;
+
+}
+.box2{
+    width: 60%px;
+    height: 200px;
+    border-radius: 8px;
+    color: #F5F5F5;
+    padding-left: 900px;
+}
+#contact{
+    color: white;
+    padding: 30px 100px;
+}
+.subcontact{
+    float: left;
+    margin-right: 10px;
+}
+#contact form{
+  float: right;
+}
+form input{
+    background-color:rgb(40, 38, 38) ;
+    color: white;
+}
+form textarea{
+    margin-left: 100px;
+    background-color: rgb(40, 38, 38);
+    color: white;
+}
+
+form button{
+    background-color: #7562E0;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+} 
+h2 {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+p {
+    color: #b3a9c7; 
+}
+
+.new_form{
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.contact-section {
+    background-color: #1a1a29;    
+    padding: 50px 0;
+    display: flex;
+    justify-content: flex-end;   
+}
+#contact {
+    max-width: 350px;
+    margin-right: 60px;
+    padding: 20px 30px;
+    text-align: left;
+    color: #bdb7ff;     
+}
+.new_form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.new_form button{
+    color:white;
+    background-color: #563cca;
+}
+.new_form input{
+    border-radius: 5px;
+    padding: 9px;
+    background-color: #181824;
+}
+.new_form textarea{
+    background-color: #181824;
+}
+footer{
+    background-color: #08080d;
+    
+}
+.soc{
+    position: relative;
+    bottom: 30px;
+    left:20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+/* Merged content from wbsite design 1.css */
+body {
+    font-family: Arial;
+    background: #fff7cc;
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: #fff4aa;
+}
+
+.navbar ul {
+    display: flexbox;
+    list-style: style;
+}
+
+.navbar li {
+    margin-left: 20px;
+}
+
+/* HERO SECTION */
+.hero {
+    display: flex;
+    padding: 40px;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #0033aa;
+}
+
+.hero-text button {
+    background: yellow;
+    border: 1px solid black;
+    padding: 8px 15px;
+    margin-top: 10px;
+}
+
+.hero-img img {
+    width: 250px;
+    border-radius: 50%;
+    border: 5px solid #ddd;
+}
+
+/* ABOUT SECTION */
+.about {
+    padding: 40px;
+    margin-top: 20px;
+}
+
+.about h2 {
+    font-size: 40px;
+    color: #ffe066;
+}
+
+.about ul li {
+    margin-bottom: 15px;
+}
+
+/* WORK SECTION */
+.work {
+    padding: 40px;
+}
+
+.work h2 {
+    font-size: 40px;
+    color: #ffe066;
+}
+
+.box1 {
+    display: flex;
+    margin-top: 20px;
+}
+
+.project {
+    width: 45%;
+    margin-right: 20px;
+    background: #ffeeaa;
+    padding: 10px;
+}
+
+.project img {
+    width: 100%;
+}
+
+.date {
+    font-size: 12px;
+    color: gray;
+}
+
+.contact h2 {
+    font-size: 40px;
+    color:#ffe066;
+}
+
+.contact img {
+    width: 440px;
+    float:left;
+}
+
